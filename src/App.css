@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  background-color: rgb(206, 213, 223);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.Card {
+  background-color: white;
+  padding: 64px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+.Header{
+  
+  height: '20px';
+  
+}
+.Buttons{
+  padding-left: 15%;
+  background-color: #ECECEC;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.logo{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+  
+}
+.qr{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  color: bluevioletr;
+}
